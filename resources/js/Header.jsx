@@ -6,14 +6,14 @@ export default function Header({ auth }) {
     <div className="flex justify-between items-center h-[100px] ">
       <div className="flex items-center">
         <h1 className=" text-4xl tracking-tighter font-bold">SITE MAKER</h1>
-        <div className="hidden sm:block flex items-center ml-[100px] gap-11 text-[18px]">
+        <div className="hidden sm:flex items-center ml-[100px] gap-11 text-[18px]">
           <p>About</p>
           <p>Blog</p>
           <p>News</p>
           <p>About</p>
         </div>
       </div>
-      <div className="flex items-center gap-5 hidden sm:block">
+      <div className=" items-center gap-5 hidden sm:flex">
         {auth.user ? (
           <Link
             href={route("dashboard")}
