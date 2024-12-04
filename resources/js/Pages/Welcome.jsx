@@ -1,7 +1,7 @@
 import React from "react";
 import { Head } from "@inertiajs/react";
-import Header from "../blocks/Header";
-import Hero from "@/blocks/Hero";
+import Header from "../Components/Header";
+import Hero from "@/Components/Hero";
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
   const handleImageError = () => {
