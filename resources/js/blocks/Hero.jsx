@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./img.jpg";
+
 export default function Hero() {
   return (
     <div className="flex min-h-[60vh] px-5  items-center justify-between">
@@ -18,7 +18,7 @@ export default function Hero() {
         </button>
       </div>
       <div className="hidden sm:block">
-        <img src={img} className="clip max-h-[450px]" />
+        {/* <img src={img} className="clip max-h-[450px]" /> */}
       </div>
     </div>
   );
