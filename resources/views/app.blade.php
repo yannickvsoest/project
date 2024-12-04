@@ -15,5 +15,6 @@
     </head>
     <body class="font-sans antialiased bg-red-600 text-black">
         @inertia
+        <p>hoi</p>
     </body>
 </html>
