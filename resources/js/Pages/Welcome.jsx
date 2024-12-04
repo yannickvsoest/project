@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component, useEffect } from "react";
 import { Head } from "@inertiajs/react";
 import Header from "../Components/Header";
 import Hero from "@/Components/Hero";
@@ -11,11 +11,15 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
     document.getElementById("background")?.classList.add("!hidden");
   };
 
+  useEffect(() => {
+    console.log("Component.loaded");
+  }, []);
+
   return (
     <>
       <Head title="Welcome" />
 
-      <div className="bg-gray-50 text-black  ">
+      <div className="bg-gray-50 text-black z-10 ">
         <div className="relative flex min-h-screen flex-col items-center  ">
           <div className="relative w-full  px-6 lg:max-w-7xl">
             {/* Gebruik hier de nieuwe Header component */}
