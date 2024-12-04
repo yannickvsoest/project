@@ -19,7 +19,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
     <>
       <Head title="Welcome" />
 
-      <div className="bg-gray-50 text-black z-10 ">
+      <div className="bg-red-500 text-black z-10 ">
         <div className="relative flex min-h-screen flex-col items-center  ">
           <div className="relative w-full  px-6 lg:max-w-7xl">
             {/* Gebruik hier de nieuwe Header component */}
