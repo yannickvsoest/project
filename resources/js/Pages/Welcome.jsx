@@ -17,7 +17,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
 
       <div className="bg-gray-50 text-black  ">
         <div className="relative flex min-h-screen flex-col items-center  ">
-          <div className="relative w-full max-w-2xl px-6 lg:max-w-7xl">
+          <div className="relative w-full  px-6 lg:max-w-7xl">
             {/* Gebruik hier de nieuwe Header component */}
             <Header auth={auth} />
             <Hero />

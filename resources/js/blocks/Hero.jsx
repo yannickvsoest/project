@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="flex min-h-[60vh] px-5  items-center justify-between">
       <div className="flex flex-col gap-9  max-w-[50%] ">
-        <h1 className="font-bold text-6xl hidden sm:block">
+        <h1 className="font-bold sm:text-6xl text-1xl">
           Website aanvragen zonder gedoe
         </h1>
         <p>
