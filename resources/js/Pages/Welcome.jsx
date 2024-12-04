@@ -23,8 +23,9 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
         <div className="relative flex min-h-screen flex-col items-center  ">
           <div className="relative w-full  px-6 lg:max-w-7xl">
             {/* Gebruik hier de nieuwe Header component */}
-            <Header auth={auth} />
-            <Hero />
+            <p>hpio</p>
+            {/* <Header auth={auth} />
+            <Hero /> */}
             <footer className="py-16 text-center text-sm text-black dark:text-white/70">
               Laravel v{laravelVersion} (PHP v{phpVersion})
             </footer>
