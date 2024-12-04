@@ -1,7 +1,7 @@
 import React, { Component, useEffect } from "react";
 import { Head } from "@inertiajs/react";
-import Header from "../Components/Header";
-import Hero from "@/Components/Hero";
+import Header from "../Header";
+import Hero from "@/Hero";
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
   const handleImageError = () => {
